@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="webfonts/">
+
+</head>
+<body>
+
+  <div class="loader">
+    <div class="spanner">
+    </div>
+  </div>
+    <div class="side-bar">
+      <div class="menu">
+        <i class="position-absolute close fas fa-times"></i>
+        <div class="item"><a href="#home">Home</a></div>
+        <div class="item"><a href="#duration">Duration</a></div>
+        <div class="item"><a href="#details">Details</a></div>
+        <div class="item"><a href="#contact">Contact</a></div>
+      </div>
+      <div class="sidebar-icon ">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </div>
+    </div>
+    <section class="hero" id="home">
+      <div class="layer d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="home-content text-center text-white ">
+            <h1>Egyption party</h1>
+            <span>Lets have fun</span>
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <section class="details text-center m-auto mt-5" id="details">
+    <div class="container w-50"> 
+      <h3 class="toggle">Singer One</h3>
+      <div class="inner">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum."</div>
+        <h3 class="toggle">Singer Two</h3>
+        <div class="inner">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."</div>
+          <h3 class="toggle">Singer Three</h3>
+          <div class="inner">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum."</div>
+    </div>
+    </section>
+    <section class="counter mt-5 text-center mb-5" id="duration">
+      <div class="counter-layer d-flex align-items-center">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-3 border border-1 border-white">
+              <div class="text-white fs-2 text-uppercase p-5">
+                <span class="days"></span>
+                <span>D</span>
+              </div>
+            </div>
+            <div class="col-md-3  border border-1 border-white">
+              <div class="text-white fs-2 text-uppercase p-5">
+                <span class="hours"></span>
+                <span>h</span>
+              </div>
+            </div>
+            <div class="col-md-3  border border-1 border-white p-5">
+              <div class="text-white fs-2 text-uppercase">
+                <span class="min"></span>
+                <span>m</span>
+              </div>
+            </div>
+            <div class="col-md-3  border border-1 border-white p-5">
+              <div class="text-white fs-2 text-uppercase">
+                <span class="sec"></span>
+                <span>s</span>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <h1 class="m-2 text-center">JOIN US</h1>
+        <p class="m-2 text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+        <div class="row g-4">
+          <div class="col-md-6">
+          <h3>Contact Info</h3>
+          <p class="text-center">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+          <div class="contant-info text-center text-light">
+            <p>
+              <i class="fa fa-map-marker">
+                New Street 22545, Nexa Road, New York City, USA
+              </i>
+            </p>
+            <p class="text-danger">
+              <i class="fa fa-envelope">
+                hello@uigrid.com
+              </i>
+            </p>
+            <p class="red">
+              <i class="fa fa-phone">
+                001-000-000-000
+              </i>
+            </p>
+          </div>
+            <div class="icon-list text-center">
+              <i class="fab fa-twitter fa-fw"></i>
+              <i class="fab fa-facebook fa-fw"></i>
+              <i class="fab fa-instagram fa-fw"></i>
+              <i class="fab fa-dribbble fa-fw"></i>
+              <i class="fab fa-pinterest fa-fw"></i>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <input class="form-control m-2" type="text" placeholder="enter your name">
+          <input class="form-control m-2" type="text" placeholder="enter your email">
+          <textarea maxlength="100" class="form-control m-2" name="enter massage" id="textarea"> Message</textarea>
+          <span id="chars">100</span>
+           Character Reamining
+          <button  style="display:block; margin-top:20px" class="btn bg-danger text-white">Send</button>
+        </div>
+        </div>
+      </div>  
+     </section>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
